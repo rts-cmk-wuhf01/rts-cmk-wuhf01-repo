@@ -61,3 +61,14 @@ Tjek antallet af undermapper og filer igen. Min siger nu ca. **3400 mapper** og 
 
 * Åbn dit repository på GitHub's hjemmeside, sørg for at siden er genindlæst efter din Commit og bekræft, at **"node_modules"** mappen IKKE ligger på GitHub. <br>Hvis du kan se mappen på GitHub, så mangler du højst sandsynligt din **gitignore**.<br>
 Det er muligt, at kopiere en gitignore fil fra et tidligere projekt.
+
+
+
+
+---
+
+
+
+### **Skriv noter!**
+
+Husk at skrive en masse noter. Opsætning af websites er jo ikke noget man gør så ofte på uddannelsen, hvilket gør det svært at huske proceduren.

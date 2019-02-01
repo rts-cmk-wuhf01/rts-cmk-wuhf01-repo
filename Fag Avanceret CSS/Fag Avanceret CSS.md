@@ -109,11 +109,16 @@ Det betyder ikke så meget, hvilken én man starter med at lære, men vi er nød
 
 * Du skal også lige huske, at LESS og SASS endnu ikke er understøttede i browserne. **Browserne kan kun afvikle almindelig CSS**. Du skal derfor sørge for at bruge en **præprocessor**, som konverterer SASS til CSS.
 
-**Ingen videoer?**
+**Video-tutorials**
 
 * Jeg har forsøgt at finde nogle gode, korte **videoer**, som giver et hurtigt indblik i hvordan SASS fungerer, men i det fleste videoer jeg kunne finde, bruger de en masse tid i starten på at installere præprocessorer og de ævler løs om hvorfor man skulle bruge LESS, SASS, osv. **Hvis du finder nogle gode videoer**, så del dem venligst med os og holdkammeraterne.
 
-**Tutorials / dokumentation**
+> Update:<br>
+> * Nanna har fundet denne video:<br>
+**"SASS Tutorial #1 - What is SASS?"** af The Net Ninja
+https://www.youtube.com/watch?v=St5B7hnMLjg
+
+**Tekst-tutorials / dokumentation**
 
 Nedenstående sider demonstrerer hurtigt og simpelt de muligheder man har i SASS. <br>Jeg vil råde dig til at **starte med at lære om Nesting og Variables**.
 

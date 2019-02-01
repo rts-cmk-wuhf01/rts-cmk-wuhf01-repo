@@ -8,7 +8,7 @@
 * Download og installér Node.js:<br>
 [WUHF01 / Node](/Blandet/Node.md)
 
-* Clone følgende repository i en ny mappe på harddisken:
+* Clone følgende repository i en ny mappe på harddisken:<br>
 https://github.com/NielsHarbo/Webpack-med-Babel-Sass-og-BEMSkel
 
 * Åbn `dist/index.html` i browseren, som viser en vejledning.

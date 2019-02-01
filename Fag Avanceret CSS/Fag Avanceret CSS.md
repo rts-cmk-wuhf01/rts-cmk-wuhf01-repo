@@ -115,7 +115,7 @@ Det betyder ikke så meget, hvilken én man starter med at lære, men vi er nød
 
 > Update:<br>
 > * Nanna har fundet denne video:<br>
-**"SASS Tutorial #1 - What is SASS?"** af The Net Ninja
+**"SASS Tutorial #1 - What is SASS?"** af The Net Ninja<br>
 https://www.youtube.com/watch?v=St5B7hnMLjg
 
 **Tekst-tutorials / dokumentation**

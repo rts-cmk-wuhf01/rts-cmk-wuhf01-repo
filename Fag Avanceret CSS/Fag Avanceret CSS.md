@@ -1,13 +1,12 @@
 # Avanceret CSS faget
 
-## 31-01-2019, uge 5
 
 ### **Node, NPM, Webpack, Præprocessorer (LESS, SASS, SCSS, osv)**
 
 *(NPM står for Node Package Manager)*
 
 * Download og installér Node.js:<br>
-https://github.com/rts-cmk-wuhf01/rts-cmk-wuhf01-repo/blob/master/Blandet/Node.md
+[WUHF01 / Node](/Blandet/Node.md)
 
 * Clone følgende repository i en ny mappe på harddisken:
 https://github.com/NielsHarbo/Webpack-med-Babel-Sass-og-BEMSkel
@@ -52,10 +51,10 @@ Dette er et modul, som bl.a. kan gøre det nemt at konvertere fra én valuta til
 
 * Du skulle gerne se mappen **"node_modules"**.<br>
 Få dit operativsystem til at tjekke hvor mange undermapper og filer den indeholder. I Windows kan man **højre-klikke** på mappen og vælge **"Egenskaber"** (Properties).<br>
-Efter at have installeret `money` modulet, siger min 5 mapper og 1 fil, hvilket slet ikke er slemt.
+Efter at have installeret `money` modulet, siger min 5 filer og 1 mappe, hvilket slet ikke er slemt.
 
 * Skriv: `npm install webpack webpack-cli --save`<br>
-Tjek antallet af undermapper og filer igen. Min siger nu ca. **3400 mapper** og **700 filer**.
+Tjek antallet af undermapper og filer igen. Min siger nu ca. **3400 filer** og **700 mapper**.
 
 * Åbn GitHub Desktop, commit og push til GitHub.
 

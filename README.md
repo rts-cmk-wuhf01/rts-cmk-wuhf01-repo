@@ -4,6 +4,12 @@
 
 [Gå til Småopgaver repository på GitHub](https://github.com/rts-cmk-wuhf01/smaaopgaver-wuhf01)
 
+## **Kode-eksempler**
+
+[Gå til eksempler-wuhf01 repository på GitHub](https://github.com/rts-cmk-wuhf01/eksempler-wuhf01)
+
+---
+
 ## **Avanceret Frontend faget - Del 1**
 
 [Gå til Avanceret Frontend faget på GitHub](/Fag%20Avanceret%20Frontend/Fag%20Avanceret%20Frontend%20Del%201.md)

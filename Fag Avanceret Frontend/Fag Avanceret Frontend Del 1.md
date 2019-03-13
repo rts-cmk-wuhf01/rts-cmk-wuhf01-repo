@@ -1,4 +1,4 @@
-# Avanceret Frontend faget - Del 1
+# **Avanceret Frontend faget - Del 1**
 
 **Start:** Torsdag d. 7/2-2019 (uge 6)<br>
 **Slut:** Onsdag d. 13/2-2019

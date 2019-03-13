@@ -1,4 +1,4 @@
-# Hvad er SASS?
+# **Hvad er SASS?**
 
 SASS er en alternativ måde, at skrive CSS på.
 
@@ -14,7 +14,7 @@ https://sass-lang.com/guide
 
 
 <br><br>
-# Installation af SASS compiler i terminalen (standalone)
+# **Installation af SASS compiler i terminalen (standalone)**
 
 Man kan sagtens nøjes med at bruge en CSS compiler. Det er ikke nødvendigt, at bruge Webpack, Gulp, Grunt eller lignende [automatiseringsværktøjer](https://hackernoon.com/javascript-build-tools-and-automation-systems-9589c5c91ebe).
 
@@ -50,7 +50,7 @@ Man kan få sass compileren til at **minify/komprimere** CSS'en (fjerner mellemr
 
 
 <br><br>
-# SASS grafisk brugerflade (compiler uden terminal)
+# **SASS grafisk brugerflade (compiler uden terminal)**
 
 I stedet for at skrive kommandoer i terminalen, kan man benytte sig af en **GUI** (grafisk brugerflade) til at konvertere SASS til CSS. Jeg vil dog fraråde dig, at blive for afhængig af dette. Jeg er overbevist om, at de fleste udviklingsteams derude bruger terminalen.
 
@@ -61,7 +61,7 @@ https://graygrids.com/best-tools-resources-compile-manage-sass-less-stylus-css-p
 
 
 <br><br>
-# Test SASS online (uden installation)
+# **Test SASS online (uden installation)**
 
 Der findes mange websites, hvor man kan afvikle SASS kode direkte i browseren, uden at installere noget. Dette gør man typisk for hurtigt at teste koden eller for at dele med andre.
 

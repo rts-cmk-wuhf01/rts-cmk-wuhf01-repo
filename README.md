@@ -12,6 +12,10 @@
 
 *(nyeste aktiviteter øverst)*
 
+## **Avanceret Frontend faget - Del 2**
+
+[Gå til **Avanceret Frontend faget** på GitHub](/Fag%20Avanceret%20Frontend/Fag%20Avanceret%20Frontend%20Del%202.md)
+
 ## **Ugen efter HIFI Corner projektet**
 
 [Gå til **opgavebeskrivelsen** på GitHub](/Praktisk%20Web/020%20Ugen%20efter%20HIFI%20Corner%20projektet/Ugen%20efter%20HIFI%20Corner%20projektet.md)

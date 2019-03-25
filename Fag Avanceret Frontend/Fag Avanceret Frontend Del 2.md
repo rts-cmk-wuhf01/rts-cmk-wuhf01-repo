@@ -230,7 +230,18 @@ Det er faktisk ikke kun src attributten vi bør undgå at arbejde med, når der 
 <br><br>
 ## **Emne 5: Skift CSS class via JS**
 
-*(kommer snart)*
+Der er selvfølgelig flere måder, hvorpå man kan tilføje og fjerne elementers classes.
+
+Jeg vil råde dig til at bruge **```myElement.classList```** -- (Info: [W3 Schools](https://www.w3schools.com/jsref/prop_element_classlist.asp) / [Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList))
+
+**classList** er et objekt, der har nogle smarte **metoder** (dvs. **funktioner**), som f.eks.:
+* add
+* remove
+* toggle
+* contains
+
+Lav et lille eksempel, som **demonstrerer** ovennævnte **funktioner**.<br>
+Gør det nemt for dig selv, at genbruge koden. Tilføj evt. kommentarer.
 
 
 

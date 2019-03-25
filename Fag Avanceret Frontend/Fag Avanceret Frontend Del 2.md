@@ -28,6 +28,7 @@ Der skal oprettes **undermapper** til de forskellige emner tilhørende del 2.
 
 
 <br><br>
+
 ## **Emne 1: HTML partials**
 
 Vi skal vha. Fetch indlæse noget HTML og indsætte det på siden. Filen vi indlæser skal altså indeholde HTML denne gang, IKKE JSON.
@@ -50,6 +51,7 @@ Prøv at se, om du kan regne det ud vha. følgende **hints**:
 
 
 <br><br>
+
 ## **Emne 2: parentElement.querySelector**
 
 **```document.querySelector```** leder altid hele dokumentet igennem. Hvis du vil have fat i et par elementer, som har samme parent, så kan det betale sig først at bruge querySelector på parent-elementet og derefter bruge **```parentElement.querySelector```**
@@ -92,6 +94,7 @@ Hvis det kun er første item's underelementer der blev påvirket, så tjek lige 
 
 
 <br><br>
+
 ## **Emne 3: cloneNode**
 
 *(kommer snart)*
@@ -99,11 +102,14 @@ Hvis det kun er første item's underelementer der blev påvirket, så tjek lige 
 
 
 <br><br>
+
 ## **Emne 4: Data-attribut**
 
 Opret undermappen **"emne4_data_attribut"**.
 
 Du er vant til at gemme oplysninger i Javascript variabler. Du skal nu i stedet prøve at **gemme og tilgå oplysninger**, som er gemt i HTML'en i form af **attributter**. Syntaksen ser sådan ud: **```<div data-test="10"></div>```**
+
+<br>
 
 **Emne 4, Opgave 01: Produkter og priser**
 
@@ -156,6 +162,8 @@ Når der klikkes på et produkt, skal den tilhørende pris logges.
 Giv det nye element id'et "display-product-title".
 
 14. Når der klikkes på et produkt, vises navnet på produktet i elementet "display-product-title".
+
+<br>
 
 **Emne 4, Opgave 02: Galleri**
 
@@ -228,6 +236,7 @@ Det er faktisk ikke kun src attributten vi bør undgå at arbejde med, når der 
 
 
 <br><br>
+
 ## **Emne 5: Skift CSS class via JS**
 
 Der er selvfølgelig flere måder, hvorpå man kan tilføje og fjerne elementers classes.
@@ -246,6 +255,7 @@ Gør det nemt for dig selv, at genbruge koden. Tilføj evt. kommentarer.
 
 
 <br><br>
+
 ## **Emne 6: Indlæsning af CSS filer dynamisk**
 
 *(kommer snart)*

@@ -97,7 +97,14 @@ Hvis det kun er første item's underelementer der blev påvirket, så tjek lige 
 
 ## **Emne 3: cloneNode**
 
-*(kommer snart)*
+Dette emne gik ud på, at **klone et eksisterende element** via JS og rette oplysningerne inden i kopien.
+
+På den måde kan man undgå, at oprette elementer via **createElement** og **innerHTML**.
+
+Fordele:
+* Det er hurtigere og nemmere for os udviklere, at omstrukturere elementerne. <br>createElement kan hurtigt blive uoverskuelig, da man ofte ender med at skulle holde styr på en masse variabler.
+
+* Flere medlemmer af udviklingsteamet (bl.a. designere) kan være med til at udføre arbejdet, da de ikke behøver at lære Javascript. De fleste kan finde ud af HTML.
 
 
 
@@ -258,4 +265,48 @@ Gør det nemt for dig selv, at genbruge koden. Tilføj evt. kommentarer.
 
 ## **Emne 6: Indlæsning af CSS filer dynamisk**
 
-*(kommer snart)*
+Vi gennemgik på tavlen, hvordan man via Javascript manipulerer med **```<link>```** tags i **```<head>```** og på den måde får den til at **skifte tema**.
+
+Når man har fået querySelect'et sit link-element, kan man bare ændre værdien af objektets **href egenskab**: **```cssLinkElement.href = "css/style2.css";```**
+
+Lav følgende eksempler.
+
+<br>
+
+**Eksempel 1:**
+
+* Du har **ét link-tag** i head, der f.eks. indlæser **```"css/style1.css"```**.
+
+* Du har en **knap 1**, som ændrer link-elementets **href** attribut til **```"css/style1.css"```**
+
+* Du har en **knap 2**, som ændrer link-elementets **href** attribut til **```"css/style2.css"```**
+
+<br>
+
+**Eksempel 2:**
+
+* Du har **2 link-tags**:
+	
+	* Ét hvor **href** peger på **```"css/default.css"```**.
+
+	* Ét hvor **href** er tomt.<br>Giv elementet et **id**, som f.eks. **"extra-css"**, så du kan få fat i det i JS.
+
+
+* Du har en **knap 1**, som ændrer "extra-css" link-elementets **href** attribut til **```""```**, så det kun er default css, der bliver brugt.
+
+* Du har en **knap 2**, som ændrer link-elementets attribut til f.eks. **```"style2.css"```**
+
+<br>
+
+**Eksempel 3:**
+
+* Du har **2 link-tags**:
+	
+	* Ét hvor **href** peger på **```"css/default.css"```**.
+
+	* Ét hvor **href** er tomt.<br>Giv elementet et **id**, som f.eks. **"extra-css"**, så du kan få fat i det i JS.
+
+
+* Du har **kun én knap**, som finder ud af om "extra-css" link-elementets **href** attribut skal sættes til **```""```**, så det kun er default css, der bliver brugt, eller til f.eks. **```"style2.css"```**
+
+* Dette kan godt kræve, at du laver **din egen Javascript variabel**, der holder styr på hvilket tema der skal bruges. 

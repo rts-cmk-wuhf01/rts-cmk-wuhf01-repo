@@ -2,7 +2,7 @@
 
 **Varighed:** 6 dage *(muligvis 7)*<br>
 **Start:** Torsdag d. 21/3-2019 (starter i uge 12)<br>
-**Slut:** Onsdag d. 29/3-2019
+**Slut:** Fredag d. 29/3-2019
 
 ## **GitHub Repository**
 

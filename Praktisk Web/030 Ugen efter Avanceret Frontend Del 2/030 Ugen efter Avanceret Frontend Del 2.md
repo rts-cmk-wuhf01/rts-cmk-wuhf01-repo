@@ -51,7 +51,7 @@ Har du lyst til at lave flere **HTML partials** end dem der er påkrævet her, s
 
 * Navigationen skal selvfølgelig linke til alle undersider.
 
-* Javascriptet der indlæser disse to skal være i en fil for sig selv.
+* Javascriptet der indlæser disse to partials skal være i en fil for sig selv.
 
 * Se om du kan undgå, at siden hopper pga. den forsinkede indlæsning af HTML partials (brug f.eks. nogle faste højder).
 

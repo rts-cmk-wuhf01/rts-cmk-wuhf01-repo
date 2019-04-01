@@ -47,7 +47,7 @@ Har du lyst til at lave flere **HTML partials** end dem der er påkrævet her, s
 
 **Navigation** og **Footer**
 
-* Skal laves som en **HTML parital**, for at undgå, at have en en kopi på hver underside.
+* Skal laves som en **HTML partial**, for at undgå, at have en en kopi på hver underside.
 
 * Navigationen skal selvfølgelig linke til alle undersider.
 

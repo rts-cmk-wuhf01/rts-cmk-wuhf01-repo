@@ -12,9 +12,16 @@
 
 *(nyeste aktiviteter øverst)*
 
+
+## **Praktik Uge 14, 2019**
+
+[Gå til **opgavebeskrivelsen** på GitHub](/Praktisk%20Web/030%20Ugen%20efter%20Avanceret%20Frontend%20Del%202/030%20Ugen%20efter%20Avanceret%20Frontend%20Del%202.md)
+
+
 ## **Avanceret Frontend faget - Del 2**
 
 [Gå til **Avanceret Frontend faget** på GitHub](/Fag%20Avanceret%20Frontend/Fag%20Avanceret%20Frontend%20Del%202.md)
+
 
 ## **Ugen efter HIFI Corner projektet**
 
@@ -30,13 +37,16 @@
 
 [Gå til **Avanceret Frontend faget** på GitHub](/Fag%20Avanceret%20Frontend/Fag%20Avanceret%20Frontend%20Del%201.md)
 
+
 ## **Avanceret CSS faget**
 
 [Gå til **Avanceret CSS faget** på GitHub](/Fag%20Avanceret%20CSS/Fag%20Avanceret%20CSS.md)
 
+
 ## **JS udenad**
 
 [Gå til **JS-udenad repository** på GitHub](https://github.com/rts-cmk/js-udenad-wuhf01)
+
 
 ## **WUHF01 Slack**
 

@@ -10,7 +10,7 @@
 
 ---
 
-*(nyeste aktiviteter øverst)*
+*(nyeste aktiviteter øverst - lister dog ikke alle aktiviteter)*
 
 
 ## **Praktik Uge 14, 2019**

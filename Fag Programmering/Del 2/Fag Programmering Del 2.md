@@ -132,8 +132,8 @@ Opret **mappen "opgave_01"** til følgende.
 *(Det der står mellem parenteserne er **standardværdierne** i class'en)*
 
 	* **state** (0)
-	* **cssClassOff** (".switchsystem-state-off")
-	* **cssClassOn** (".switchsystem-state-on")
+	* **cssClassOff** ("switchsystem-state-off")
+	* **cssClassOn** ("switchsystem-state-on")
 	* **textOff** ("Off") -- *Gør det nemt at oversætte til andre sprog*
 	* **textOn** ("On") <br><br>*Du kan få brug for flere egenskaber end nævnt her. Dem opretter du selv.*
 

@@ -188,4 +188,25 @@ Mappe: **"opgave_01_ekstra2"**
 
 Det er helt i orden, hvis data-attributten udelukkende bruges til at bestemme start-værdien.
 
-Sagt på en anden måde: Det gør ikke noget, hvis knappen ikke skifter udseende, hvis man ændre data-attributten værdi via Developer Tools i browseren.
+Sagt på en anden måde: Det gør ikke noget, hvis knappen ikke skifter udseende, hvis man ændrer data-attributtens værdi via Developer Tools i browseren.
+
+
+**Ekstraopgave**
+
+Mappe: **"opgave_01_ekstra3"**
+
+* Se om du kan få switch systemerne til at fungere når koden ser ud som vist herunder (læg mærke til at **parent-elementerne** ikke længere har et **unikt id eller class**).
+
+```
+	<div class="switchsystem">
+		<button></button>
+	</div>
+
+	<div class="switchsystem">
+		<button></button>
+	</div>
+```
+* Reglen om at der i **index.js** maks. må være **2 linjer kode** per system **gælder IKKE længere**.
+
+* Man skal kunne **gå ind i HTML'en og tilføje endnu et switchsystem**, køre siden, og se at den nye knap også fungerer, **uden at være nødt til at ændre noget i Javascript**.
+

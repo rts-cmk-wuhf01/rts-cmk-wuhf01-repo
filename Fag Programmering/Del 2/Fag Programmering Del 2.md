@@ -116,11 +116,11 @@ Opret **mappen "opgave_01"** til følgende.
 
 ```
 	<div id="switchsystem-1" class="switchsystem">
-		<button class=".switchsystem-state-off">Off</button>
+		<button class="switchsystem-state-off">Off</button>
 	</div>
 
 	<div id="switchsystem-2" class="switchsystem">
-		<button class=".switchsystem-state-off">Off</button>
+		<button class="switchsystem-state-off">Off</button>
 	</div>
 ```
 

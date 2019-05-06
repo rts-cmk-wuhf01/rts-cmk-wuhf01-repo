@@ -93,6 +93,21 @@ Tag ovenstående spørgsmål, indsæt dem i din notefil og skriv svarene så sna
 
 <br><br>
 
+## **Om opgaverne**
+
+**Da dette er en introduktion til OOP**, skal du være opmærksom på, at dét du får udviklet ved at følge opgaverne, ikke nødvendigvis bliver et perfekt eksempel på **"hvordan man gør derude"** i forbindelse med webudvikling.
+
+Ved at løse opgaverne, viser du at **du har forstået grundlæggende OOP** og at du forstår **fagudtrykkene**.
+
+Kig på de **udleverede eksempler**, når du løser opgaverne, som f.eks. **CounterSystem eksemplet**, så giver det bedre mening, hvad det er du bliver bedt om at gøre.
+
+Person- og CounterSystem-eksemplerne var IKKE opgaver og skal derfor ikke lægges i en mappe kaldet "opgave_xx".
+
+Husk nu at skrive **noter** og **kodekommentarer**.
+
+
+<br><br>
+
 ## **Opgave 1**
 
 Opret **mappen "opgave_01"** til følgende.

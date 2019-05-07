@@ -210,3 +210,39 @@ Mappe: **"opgave_01_ekstra3"**
 
 * Man skal kunne **gå ind i HTML'en og tilføje endnu et switchsystem**, køre siden, og se at den nye knap også fungerer, **uden at være nødt til at ændre noget i Javascript**.
 
+
+<br><br>
+
+## **Opgave 2**
+
+Opret **mappen "opgave_02"** til følgende.
+
+* Definér **class'en SchoolClass** med følgende **egenskaber** og giv dem nogle passende **standardværdier**:
+
+	* **className** (String)
+	* **educationName** (String)
+	* **institutionName** (String)
+	* **studentNames** (Array af Strings)<br><br>*Der skal ikke være nogen referencer til HTML elementer.*
+
+* **Constructoren** skal tage imod **3 parametre**, **className**, **educationName** og **institutionName**, som selvfølgelig skal have indflydelse på objekts egenskaber.
+
+* Definér **metoden addStudent**, som tager imod ét parameter, **navn**, og tilføjer navnet til **studentNames arrayet**.<br>
+Metoden må ikke gøre noget med UI'en.
+
+* Definér **metoden clearStudents**, som bare tømmer **studentNames arrayet**.<br>
+Metoden må ikke gøre noget med UI'en.
+
+* Definér **metoden showStudentsAsHTML**, som tager imod et **cssSelector parameter**, og udskriver **alle eleverne** under hinanden inden i dét element, som CSS Selectoren refererer til.<br>Over eleverne, skal du udskrive **className, educationName og institutionName**. Du bestemmer selv hvilke HTML elementer du vil bruge.
+
+* Definér **metoden showStudentsAsHTMLList**, som tager imod et **cssSelector parameter**, og udskriver alle eleverne som en HTML liste inden i dét element, som CSS Selectoren refererer til.<br>
+Metoden skal generere en ```<ul>``` og ```<li>``` struktur.<br>Over eleverne, skal du udskrive **className, educationName og institutionName**. Du bestemmer selv hvilke HTML elementer du vil bruge til disse tre oplysninger.
+
+* I **index.js**, opret **2 instanser** af SchoolClass.
+
+* Brug metoden **addStudent** i index.js til at oprette elever i begge objekter (selvfølgelig ikke i ét hug).
+
+* **Gør kun ét HTML element klar**, hvor eleverne kan blive udskredet.<br>Når eleverne fra et andet hold bliver udskrevet, så skal indholdet af elementet bare blive erstattet.<br>
+Altså kan der kun vises **ét hold ad gangen**.
+
+* Opret nogle **knapper**, man kan bruge til at teste metoderne **showStudentsAsHTML**, **showStudentsAsHTMLList** og **clearStudents**, men lad alle **events** være i **index.js**, IKKE i class'en.
+

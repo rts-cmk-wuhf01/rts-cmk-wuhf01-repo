@@ -246,3 +246,13 @@ Altså kan der kun vises **ét hold ad gangen**.
 
 * Opret nogle **knapper**, man kan bruge til at teste metoderne **showStudentsAsHTML**, **showStudentsAsHTMLList** og **clearStudents**, men lad alle **events** være i **index.js**, IKKE i class'en.
 
+
+**Ekstraopgave**
+
+Mappe: **"opgave_02_ekstra1"**
+
+* Definér **metoden addStudents**, der tager imod ét parameter, **names** som et **array**, og tilføjer navnene til **studentNames arrayet**.<br>
+Metoden må ikke gøre noget med UI'en.
+
+* Ret din kode i index.js, så **eleverne tilføjes** vha. din **nye metode**.
+

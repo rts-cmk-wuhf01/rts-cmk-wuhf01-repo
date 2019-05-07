@@ -226,7 +226,7 @@ Opret **mappen "opgave_02"** til følgende.
 
 * **Constructoren** skal tage imod **3 parametre**, **className**, **educationName** og **institutionName**, som selvfølgelig skal have indflydelse på objekts egenskaber.
 
-* Definér **metoden addStudent**, som tager imod ét parameter, **navn**, og tilføjer navnet til **studentNames arrayet**.<br>
+* Definér **metoden addStudent**, som tager imod ét parameter, **name**, og tilføjer navnet til **studentNames arrayet**.<br>
 Metoden må ikke gøre noget med UI'en.
 
 * Definér **metoden clearStudents**, som bare tømmer **studentNames arrayet**.<br>

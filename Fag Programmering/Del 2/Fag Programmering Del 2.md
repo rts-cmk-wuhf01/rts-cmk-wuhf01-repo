@@ -11,6 +11,8 @@
 * Sæt læreren på som **Collaborator**.
 * **PUSH** HVER DAG
 
+<br><br>
+
 ## **Emner**
 
 * **Objekt-Orienteret Programmering (OOP) i Javascript**
@@ -134,7 +136,7 @@ Opret **mappen "opgave_01"** til følgende.
 	* **state** (0)
 	* **cssClassOff** ("switchsystem-state-off")
 	* **cssClassOn** ("switchsystem-state-on")
-	* **textOff** ("Off") -- *Gør det nemt at oversætte til andre sprog*
+	* **textOff** ("Off") -- *Gør det bl.a. nemt at oversætte til andre sprog eller få den til at skrive YES/NO*
 	* **textOn** ("On") <br><br>*Du kan få brug for flere egenskaber end nævnt her. Dem opretter du selv.*
 
 * Definér **metoden attachToHTML**, som gør referencer til HTML elementer klar, opretter click-events, osv.
@@ -161,6 +163,9 @@ Opret **mappen "opgave_01"** til følgende.
 ```
 
 
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+
 **Ekstraopgave**
 
 Mappe: **"opgave_01_ekstra1"**
@@ -168,6 +173,9 @@ Mappe: **"opgave_01_ekstra1"**
 *Du må IKKE overskrive den oprindelige opgave!*
 
 • Slet **cssClassOff** og **cssClassOn** egenskaberne og brug et **array** i stedet, hvor index 0 indeholder CSS class'en til off-state og index 1 indeholder CSS class'en til on-state.
+
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 
 
 **Ekstraopgave**
@@ -189,6 +197,9 @@ Mappe: **"opgave_01_ekstra2"**
 Det er helt i orden, hvis data-attributten udelukkende bruges til at bestemme start-værdien.
 
 Sagt på en anden måde: Det gør ikke noget, hvis knappen ikke skifter udseende, hvis man ændrer data-attributtens værdi via Developer Tools i browseren.
+
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 
 
 **Ekstraopgave**
@@ -232,10 +243,10 @@ Metoden må ikke gøre noget med UI'en.
 * Definér **metoden clearStudents**, som bare tømmer **studentNames arrayet**.<br>
 Metoden må ikke gøre noget med UI'en.
 
-* Definér **metoden showStudentsAsHTML**, som tager imod et **cssSelector parameter**, og udskriver **alle eleverne** under hinanden inden i dét element, som CSS Selectoren refererer til.<br>Over eleverne, skal du udskrive **className, educationName og institutionName**. Du bestemmer selv hvilke HTML elementer du vil bruge.
+* Definér **metoden showStudentsAsHTML**, som tager imod et **cssSelector parameter**, og udskriver **alle eleverne** under hinanden inden i dét element, som CSS Selectoren refererer til.<br>Over eleverne (og kun én gang) skal du udskrive **className, educationName og institutionName**. Du bestemmer selv hvilke HTML elementer du vil bruge.
 
 * Definér **metoden showStudentsAsHTMLList**, som tager imod et **cssSelector parameter**, og udskriver alle eleverne som en HTML liste inden i dét element, som CSS Selectoren refererer til.<br>
-Metoden skal generere en ```<ul>``` og ```<li>``` struktur.<br>Over eleverne, skal du udskrive **className, educationName og institutionName**. Du bestemmer selv hvilke HTML elementer du vil bruge til disse tre oplysninger.
+Metoden skal generere en ```<ul>``` og ```<li>``` struktur.<br>Over eleverne (og kun én gang) skal du udskrive **className, educationName og institutionName**. Du bestemmer selv hvilke HTML elementer du vil bruge til disse tre oplysninger.
 
 * I **index.js**, opret **2 instanser** af SchoolClass.
 
@@ -247,6 +258,10 @@ Altså kan der kun vises **ét hold ad gangen**.
 * Opret nogle **knapper**, man kan bruge til at teste metoderne **showStudentsAsHTML**, **showStudentsAsHTMLList** og **clearStudents**, men lad alle **events** være i **index.js**, IKKE i class'en.
 
 
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+
 **Ekstraopgave**
 
 Mappe: **"opgave_02_ekstra1"**
@@ -255,4 +270,6 @@ Mappe: **"opgave_02_ekstra1"**
 Metoden må ikke gøre noget med UI'en.
 
 * Ret din kode i index.js, så **eleverne tilføjes** vha. din **nye metode**.
+
+
 

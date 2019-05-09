@@ -304,6 +304,7 @@ Opret **mappen "opgave_03"** til følgende.
 
 Opgaven går ud på at arbejde med **flere JS classes** samtidig og **objekt-referencer**.
 
+
 ### **Relationer:**
 
 ```
@@ -336,6 +337,8 @@ Husk at give hver class en **name** egenskab.
 	* Skal referere til **flere Students**.
 	* Skal referere til den **Education** den **hører til**.
 
+<br>
+
 ### **Metoder**
 
 De objekter, som holder styr på **flere referencer** (vha. Array), skal have nogle **hjælpefunktioner**, der kan gøre det nemmere at **administrere referencerne**.
@@ -356,13 +359,60 @@ schoolClass1.removeStudentByIndex (0);
 
 **OBS:** Mens du kigger på ovenstående eksempler, husk nu den **navngivningskonvention** vi har snakket om *(se tabellen længere oppe i dette dokument, hvis du vil have det genopfrisket)*.
 
+<br>
+
 ### **Afprøv systemet**
 
 Afprøv systemet på så **mange forskellige måder**, som du har tid og overskud til. Du skal bruge OOP i næste praktikprojekt, så jo mere kode du får skrevet nu, jo mere har du, som du kan genbruge senere.
 
 Pas på, du ikke kun udskriver data i **konsollen**. Undersøg hvad der skal til, for at **udskrive data på siden også**.
 
-Eksempel:
+<br>
 
-* Udskriv (på siden) navnene på **alle Students** i **første SchoolClass** tilhørende **første Education** tilhørende **første Institution**.<br><br>I koden står de jo omvendt:<br> Første **Institution** -> Første **Education** -> Første **SchoolClass** -> Alle **Students** -> **name**
+### **Cases** *(småopgaver til Opgave 3)*
+
+Svaret på nedenstående spørgsmål skal skrives i en fil her:<br>
+**```opgaver_03/Cases/Cases.js```**
+
+**Koden skal være korrekt**, men man behøver IKKE at kunne afvikle filen.<br>
+Du kan blot teste koden i dit system. Når du har fået det korrekte resultat, så kopiér koden til **```"Cases.js"```**.
+
+Sørg for, at indholdet af **```"Cases.js"```** er **ordentligt**, så det er nemt at læse. Separér de forskellige cases godt.
+
+* **Case 1**
+
+	* Hvordan logger man **navnene** (ikke objekterne) på **alle Students** i **første SchoolClass** tilhørende **første Education** tilhørende **første Institution**.<br>Du skal bruge din **Institution Manager** til at få fat i dataen.<br><br>Husk, at man I koden skriver det omvendt:<br> Første **Institution** -> Første **Education** -> Første **SchoolClass** -> Alle **Students** -> **name**
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+* **Case 2**
+	* Du har variablen **mySchoolClass**, som refererer til en specifik SchoolClass.
+	
+	* Hvordan logger du **navnet** på den **tilhørende Education**?
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+* **Case 3**
+	* Du har variablen **myStudent**, som refererer til en specifik Student.
+	
+	* Hvordan udskriver du **navnet** på den **tilhørende Institution**?
+
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+* **Case 4:**
+	* Du har variablen **myStudent**, som refererer til en specifik Student.
+	
+	* Den ovennævnte elev **går på første hold** (dvs. første index) på den tilhørende uddannelse (Education).
+	
+	* Hvordan udskriver du **navnet** på hold nr. 2 på samme uddannelse?
+
+
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+* **Case 5:**
+	* Du har variablen **myStudent**, som refererer til en specifik Student.
+	
+	* Hvordan udskriver du alle **holdkammeraternes navne**?<br>Den ovennævnte elev må ikke udskrives.
 

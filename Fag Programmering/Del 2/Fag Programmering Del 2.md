@@ -405,7 +405,7 @@ Sørg for, at indholdet af **```"Cases.js"```** er **ordentligt**, så det er ne
 	
 	* Den ovennævnte elev **går på første hold** (dvs. første index) på den tilhørende uddannelse (Education).
 	
-	* Hvordan udskriver du **navnet** på hold nr. 2 på samme uddannelse?
+	* Hvordan udskriver du **navnet på hold nr. 2** på samme uddannelse?
 
 
 

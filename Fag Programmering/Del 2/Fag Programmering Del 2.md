@@ -395,7 +395,7 @@ Sørg for, at indholdet af **```"Cases.js"```** er **ordentligt**, så det er ne
 * **Case 3**
 	* Du har variablen **myStudent**, som refererer til en specifik Student.
 	
-	* Hvordan udskriver du **navnet** på den **tilhørende Institution**?
+	* Hvordan logger du **navnet** på den **tilhørende Institution**?
 
 
 ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
@@ -405,7 +405,7 @@ Sørg for, at indholdet af **```"Cases.js"```** er **ordentligt**, så det er ne
 	
 	* Den ovennævnte elev **går på første hold** (dvs. første index) på den tilhørende uddannelse (Education).
 	
-	* Hvordan udskriver du **navnet på hold nr. 2** på samme uddannelse?
+	* Hvordan logger du **navnet på hold nr. 2** på samme uddannelse?
 
 
 
@@ -414,5 +414,5 @@ Sørg for, at indholdet af **```"Cases.js"```** er **ordentligt**, så det er ne
 * **Case 5:**
 	* Du har variablen **myStudent**, som refererer til en specifik Student.
 	
-	* Hvordan udskriver du alle **holdkammeraternes navne**?<br>Den ovennævnte elev må ikke udskrives.
+	* Hvordan logger du alle **holdkammeraternes navne**?<br>Den ovennævnte elev må ikke udskrives.
 

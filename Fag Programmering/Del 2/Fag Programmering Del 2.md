@@ -104,17 +104,17 @@ Sørg nu for at følge denne navngivningskonvention.
 
 |Identifier|Type|
 |---|---|
-|Car | Class
-|car | Object
-|cars | Array of Objects
-|<span>car.name</span> | Property of an Object
-|car.show() | Method
+|```Car``` | Class
+|```car``` | Object
+|```cars``` | Array of Objects
+|```car.name``` | Property of an Object
+|```car.show()``` | Method
 | --- |  
-|carElement | One HTML element
-|carElements | Array of HTML elements
-|carName | String variable
-|carDoorCount | Number variable
-|showCar (car)| Function
+|```carElement``` | One HTML element
+|```carElements``` | Array of HTML elements
+|```carName``` | String variable
+|```carDoorCount``` | Number variable
+|```showCar (car)``` | Function
 
 
 <br><br>

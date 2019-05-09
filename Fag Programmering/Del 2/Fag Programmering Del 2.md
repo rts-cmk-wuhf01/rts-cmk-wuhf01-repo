@@ -95,6 +95,30 @@ Tag ovenstående spørgsmål, indsæt dem i din notefil og skriv svarene så sna
 
 <br><br>
 
+## **Navngivningskonvention**
+
+Sørg nu for at følge denne navngivningskonvention.
+
+**Identifier** er et fællesbegreb for **navnene** på variabler, funktioner, metoder, classes.
+
+
+|Identifier|Type|   |   |   |
+|---|---|---|---|---|
+|Car | Class
+|car | Object
+|cars | Array of Objects
+|<span>car.name</span> | Property of an Object
+|car.show() | Method
+| --- |  
+|carElement | One HTML element
+|carElements | Array of HTML elements
+|carName | String variable
+|carDoorCount | Number variable
+|showCar (car)| Function
+
+
+<br><br>
+
 ## **Om opgaverne**
 
 **Da dette er en introduktion til OOP**, skal du være opmærksom på, at dét du får udviklet ved at følge opgaverne, ikke nødvendigvis bliver et perfekt eksempel på **"hvordan man gør derude"** i forbindelse med webudvikling.
@@ -272,4 +296,73 @@ Metoden må ikke gøre noget med UI'en.
 * Ret din kode i index.js, så **eleverne tilføjes** vha. din **nye metode**.
 
 
+<br><br>
+
+## **Opgave 3: MultiClasses**
+
+Opret **mappen "opgave_03"** til følgende.
+
+Opgaven går ud på at arbejde med **flere JS classes** samtidig og **objekt-referencer**.
+
+### **Relationer:**
+
+```
+* InstitutionManager
+
+   * Institution
+
+      * Education
+
+         * SchoolClass
+
+            * Student
+```
+Ovenstående er navnene på **separate JS classes**.<br>
+Husk at give hver class en **name** egenskab.
+
+
+* **InstitutionManager**
+	* Skal referere til **flere Institutions**.
+
+* **Institution**
+	* Skal referere til **flere Eductions**.
+	* Må også gerne referere til **den InstitutionManager** den **hører til**.
+
+* **Education**
+	* Skal referere til **flere SchoolClasses**.
+	* Skal referere til den **Institution** den **hører til**.
+
+* **SchoolClass**
+	* Skal referere til **flere Students**.
+	* Skal referere til den **Education** den **hører til**.
+
+### **Metoder**
+
+De objekter, som holder styr på **flere referencer** (vha. Array), skal have nogle **hjælpefunktioner**, der kan gøre det nemmere at **administrere referencerne**.
+
+
+Jeg bruger her **SchoolClass som eksempel**:
+
+**index.js**
+```Javascript
+// Simple:
+schoolClass1.addStudent (student);
+schoolClass1.clearStudents ();
+
+// A bit more advanced:
+schoolClass1.removeStudentByReference (student);
+schoolClass1.removeStudentByIndex (0);
+```
+
+**OBS:** Mens du kigger på ovenstående eksempler, husk nu den **navngivningskonvention** vi har snakket om *(se tabellen længere oppe i dette dokument, hvis du vil have det genopfrisket)*.
+
+### **Afprøv systemet**
+
+Afprøv systemet på så **mange forskellige måder**, som du har tid og overskud til. Du skal bruge OOP i næste praktikprojekt, så jo mere kode du får skrevet nu, jo mere har du, som du kan genbruge senere.
+
+Pas på, du ikke kun udskriver data i **konsollen**. Undersøg hvad der skal til, for at **udskrive data på siden også**.
+
+Eksempel:
+
+* Udskriv (på siden) navnene på **alle Students** i **første SchoolClass** tilhørende **første Education** tilhørende **første Institution**.<br><br>I koden står de jo omvendt:<br> Første **Institution** -> Første **Education** -> Første **SchoolClass** -> Alle **Students** -> **name**
 

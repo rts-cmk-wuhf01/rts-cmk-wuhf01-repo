@@ -102,8 +102,8 @@ Sørg nu for at følge denne navngivningskonvention.
 **Identifier** er et fællesbegreb for **navnene** på variabler, funktioner, metoder, classes.
 
 
-|Identifier|Type|   |   |   |
-|---|---|---|---|---|
+|Identifier|Type|
+|---|---|
 |Car | Class
 |car | Object
 |cars | Array of Objects

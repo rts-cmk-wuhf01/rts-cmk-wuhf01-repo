@@ -379,20 +379,20 @@ Du kan blot teste koden i dit system. Når du har fået det korrekte resultat, s
 
 Sørg for, at indholdet af **```"Cases.js"```** er **ordentligt**, så det er nemt at læse. Separér de forskellige cases godt.
 
-* **Case 1**
+* **Case 1:**
 
-	* Hvordan logger man **navnene** (ikke objekterne) på **alle Students** i **første SchoolClass** tilhørende **første Education** tilhørende **første Institution**.<br>Du skal bruge din **Institution Manager** til at få fat i dataen.<br><br>Husk, at man I koden skriver det omvendt:<br> Første **Institution** -> Første **Education** -> Første **SchoolClass** -> Alle **Students** -> **name**
+	* Hvordan logger man **navnene** (ikke objekterne) på **alle Students** i **første SchoolClass** tilhørende **første Education** tilhørende **første Institution**?<br>Du skal bruge din **Institution Manager** til at få fat i dataen.<br><br>Husk, at man I koden skriver det omvendt:<br> **Institution Manager** -> Første **Institution** -> Første **Education** -> Første **SchoolClass** -> Alle **Students** -> **name**
 
 ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 
-* **Case 2**
+* **Case 2:**
 	* Du har variablen **mySchoolClass**, som refererer til en specifik SchoolClass.
 	
 	* Hvordan logger du **navnet** på den **tilhørende Education**?
 
 ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 
-* **Case 3**
+* **Case 3:**
 	* Du har variablen **myStudent**, som refererer til en specifik Student.
 	
 	* Hvordan logger du **navnet** på den **tilhørende Institution**?

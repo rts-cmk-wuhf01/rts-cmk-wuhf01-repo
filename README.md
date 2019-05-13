@@ -13,6 +13,16 @@
 *(nyeste aktiviteter øverst - lister dog ikke alle aktiviteter)*
 
 
+## **Praktik Uge 20, 2019**
+
+[Gå til **opgavebeskrivelsen** på GitHub](/Praktisk%20Web/040%20Ugen%20efter%20Programming%20Del%202%20(OOP)/040%20Ugen%20efter%20Programming%20Del%202%20(OOP).md)
+
+
+## **Programmering faget - Del 2**
+
+[Gå til **opgavebeskrivelsen** på GitHub](/Fag%20Programmering/Del%202/Fag%20Programmering%20Del%202.md)
+
+
 ## **Praktik Uge 14, 2019**
 
 [Gå til **opgavebeskrivelsen** på GitHub](/Praktisk%20Web/030%20Ugen%20efter%20Avanceret%20Frontend%20Del%202/030%20Ugen%20efter%20Avanceret%20Frontend%20Del%202.md)
@@ -20,7 +30,7 @@
 
 ## **Avanceret Frontend faget - Del 2**
 
-[Gå til **Avanceret Frontend faget** på GitHub](/Fag%20Avanceret%20Frontend/Fag%20Avanceret%20Frontend%20Del%202.md)
+[Gå til **opgavebeskrivelsen** på GitHub](/Fag%20Avanceret%20Frontend/Fag%20Avanceret%20Frontend%20Del%202.md)
 
 
 ## **Ugen efter HIFI Corner projektet**
@@ -30,17 +40,17 @@
 
 ## **HIFI Corner projekt** (Praktisk Web)
 
-[Gå til **HIFI Corner projektet** på GitHub](https://github.com/rts-cmk/wuhf-hificorner)
+[Gå til **opgavebeskrivelsen** på GitHub](https://github.com/rts-cmk/wuhf-hificorner)
 
 
 ## **Avanceret Frontend faget - Del 1**
 
-[Gå til **Avanceret Frontend faget** på GitHub](/Fag%20Avanceret%20Frontend/Fag%20Avanceret%20Frontend%20Del%201.md)
+[Gå til **opgavebeskrivelsen** på GitHub](/Fag%20Avanceret%20Frontend/Fag%20Avanceret%20Frontend%20Del%201.md)
 
 
 ## **Avanceret CSS faget**
 
-[Gå til **Avanceret CSS faget** på GitHub](/Fag%20Avanceret%20CSS/Fag%20Avanceret%20CSS.md)
+[Gå til **opgavebeskrivelsen** på GitHub](/Fag%20Avanceret%20CSS/Fag%20Avanceret%20CSS.md)
 
 
 ## **JS udenad**

@@ -69,12 +69,13 @@ Eksempel:
 	så er det kolonne-navnene i databasen, der bestemmer, hvad
 	der skal stå efter "article."  (efter punktummet).<br>
 	<br>
-	Eksempel:<br>
-		```
-		<% articles.forEach (article => { %>
-			<%= article.article_id  %>
-		<% }) %>
-		```
+	Eksempel:
+```
+<% articles.forEach (article => { %>
+	<%= article.article_id %>
+<% }) %>
+```
+	
 
 
 * MySQL (DB) - (Structured Query Language)
@@ -90,7 +91,8 @@ Eksempel:
 	
 * BodyParser - Gør det nemt at arbejde med data, som f.eks. er blevet sendt via en formular.
 	
-	* Eksempel:
+	* Eksempel:<br>
+	
 		```
 		console.log (req.body.emne)
 		```
